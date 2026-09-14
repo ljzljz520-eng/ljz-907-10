@@ -23,3 +23,11 @@ __pycache__/
 *.log
 .env
 .env.*
+
+# city-memory runtime data
+city-memory/data/*.sqlite*
+city-memory/uploads/*
+!city-memory/uploads/.htaccess
+!city-memory/uploads/.gitkeep
+!city-memory/data/.gitkeep
+bin/
